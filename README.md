@@ -98,3 +98,21 @@ definitions of `StringLogger` to that file.
 
 Create a static int that is set to `2` and have `Version()` return 
 that instead.
+
+## Build and Test instructions
+
+### Build with [cmake](https://cmake.org) project using the following instructions:
+
+```
+mkdir build
+cd build && cmake ..
+make
+```
+
+### Test implementation by running:
+
+```
+./OOP_Lesson2
+Part 1 passed!
+Part 2 passed!
+```
